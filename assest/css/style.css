@@ -772,7 +772,15 @@ border-radius: 6px 0px 6px 6px !important;
     .line_1{
         top: 111px;
         left: 30px;
-        z-index: 0
+        z-index: 1 !important;
+    }
+    .dash_line{
+      top: 265px;
+      z-index: 0 !important;
+      right: 0;
+    }
+    .max-w-500{
+        max-width:550px;
     }
     .pb-79{
         padding-bottom: 79px;
@@ -784,7 +792,7 @@ border-radius: 6px 0px 6px 6px !important;
         padding-top: 20px;
     }
     .max-w-1250{
-        max-width: 1250px;
+        max-width: 1250px !important;
     }
 
     /* preloader */
@@ -1117,6 +1125,9 @@ border-radius: 6px 0px 6px 6px !important;
     }
     .pt-226{
         padding-top: 40px;
+    }
+    .header_img {
+        min-height: 700px;
     }
 
 }
