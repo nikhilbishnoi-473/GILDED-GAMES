@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="shortcut icon" href="./assest/image/Slice2.png" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -11,24 +12,28 @@
 </head>
 
 <body>
-    <header class="header_img   min-vh-100 d-flex flex-column">
+    <header class="header_img   min-h-826 d-flex flex-column">
         <div class=" shadow_nav">
             <div class="container max-w-1315 ">
                 <nav class="d-flex align-items-center justify-content-between  py-19">
-                    <div class="">
+                    <div class="cursor">
                         <img class="w-100 max-w-logo" src="./assest/image/svg/logosvg.svg" alt="logo">
                     </div>
                     <div class="mobile_view  d-flex justify-content-center align-items-center gap-29" id="navbar">
 
                         <ul
                             class="d-flex mb_pl_0 flex-column flex-xl-row   d-flex align-items-center justify-content-center  gap-40">
-                            <li><a href="" class="josefin fw-400 fs-22 line-22 white" onclick="openNav()">About</a>
+                            <li><a href="#section_1" class="josefin z-3 fw-400 fs-22 line-22 white"
+                                    onclick="openNav()">About</a>
                             </li>
-                            <li><a href="" class="josefin fw-400 fs-22 line-22 white" onclick="openNav()">Presale
+                            <li><a href="#section_2" class="josefin z-3 fw-400 fs-22 line-22 white"
+                                    onclick="openNav()">Presale
                                     $GILD</a> </li>
-                            <li><a href="" class="josefin fw-400 fs-22 line-22 white" onclick="openNav()"> Staking
+                            <li><a href="#section_3" class="josefin z-3 fw-400 fs-22 line-22 white" onclick="openNav()">
+                                    Staking
                                     $GILD</a> </li>
-                            <li><a href="" class="josefin fw-400 fs-22 line-22 white" onclick="openNav()"> $GILD
+                            <li><a href="#section__4" class="josefin z-3 fw-400 fs-22 line-22 white"
+                                    onclick="openNav()"> $GILD
                                     Nodes</a> </li>
 
                         </ul>
@@ -44,13 +49,14 @@
                         <span></span>
                         <span class="my-2"> </span>
                         <span></span>
+                        </div>
                 </nav>
             </div>
 
         </div>
 
-        <div
-            class="container max-w-1315 flex-grow-1 flex-column  d-flex justify-content-center align-items-center  text-center">
+        <div class="container max-w-1315 flex-grow-1 flex-column  d-flex justify-content-center align-items-center  text-center"
+            id="section_1">
             <div class="d-flex flex-column">
                 <h1 class="poppins fw-400 mb-0 line-91 text-center  fs-72 white heading_1">There are games... And then
                     there are <span class="text-color ">Gilded</span> Games</h1>
@@ -93,13 +99,13 @@
                     </div>
                 </div>
                 <div class="col-lg-5">
-                    <img class="w-100 max-w-400" src="./assest/image/section_2_girl.png" alt="section_2_girl">
+                    <img class="w-100 cursor max-w-400" src="./assest/image/section_2_girl.png" alt="section_2_girl">
                 </div>
             </div>
 
         </div>
     </section>
-    <section class="bg_black d -none mt--2 position-relative">
+    <section class="bg_black d -none mt--2 position-relative pb-110">
         <div class="container max-w-1320">
             <div class="d-flex justify-content-center text-center transition_top">
                 <div class="d-flex flex-column">
@@ -115,8 +121,8 @@
                     </p>
                 </div>
             </div>
-            <div class="mt-1 pb-110">
-                <img class="w-100 img_border z-3" src="./assest/image/vedio.gif" alt="gif">
+            <div class="mt-1 z-3 cursor img_border">
+                <img class="w-100 cursor z-3" src="./assest/image/vedio.gif" alt="gif">
             </div>
 
         </div>
@@ -127,14 +133,14 @@
             <img src="./assest/image/ellips_2.png" alt="ellips_1">
         </div>
     </section>
-    <section class="bg_section_4 d -none mt--2">
+    <section class="bg_section_4 d -none mt--2" id="section_2">
         <div class="container max-w-1320 ">
             <div class="d-flex justify-content-center align-items-center position-relative">
-                <p class="josefin fs-40 line-62 mb-0 white  max-w-940 text-center py-229">
+                <h2 class="josefin fs-40 line-62 mb-0 white  max-w-940 text-center py-229">
                     Gilded Games is a new type of gaming platform, partially owned and operated by its players. Earn
                     Gild
                     tokens by playing and use them to decide the future of the game!
-                </p>
+                </h2>
                 <div class="position-absolute position_left  d-none d-xxl-block">
                     <img src="./assest/image/bx_bxs-quote-left.png" alt="bx_bxs-quote-left">
                 </div>
@@ -144,13 +150,14 @@
             </div>
 
         </div>
-        </div>
+      
 
     </section>
-    <section class="section_5 mt--2 d -none">
+    <section class="section_5 mt--2 d -none" id="section_3">
         <div class="container max-w-1320">
             <div class="d-flex justify-content-center pt-130">
-                <h4 class="josefin fw-700 fs-48 line-61 white mb-0  "> <span class="text-gradient_3">$GILD</span> Token Info
+                <h4 class="josefin fw-700 fs-48 line-61 white mb-0  "> <span class="text-gradient_3">$GILD</span> Token
+                    Info
                 </h4>
             </div>
             <div class="row pt-59 pb-136 d-flex justify-content-center">
@@ -179,7 +186,7 @@
                     <div class="card_1 w-100 box_border d-flex z-3 justify-content-center text-center">
                         <div class="d-flex z-3 flex-column">
                             <div class="">
-                                <img class="" src="./assest/image/card_3.png" alt="svg">
+                                <img class="cursor" src="./assest/image/card_3.png" alt="svg">
                             </div>
                             <h4 class="josefin fw-700 fs-30 line-38 white mb-0 pt-11 ">2,500+</h4>
                             <h5 class="josefin fw-400 fs-16 line-22 mb-0 white">NFT Sold</h5>
@@ -201,10 +208,87 @@
             </div>
         </div>
     </section>
-    <section class="bg_img_3 mt--2 d -none position-relative">
+    <section class="bg-black mt--2">
+        <div class="container max-w-1250">
+            <div class="pt-92 d-flex justify-content-center ">
+                <h4 class="josefin fw-700 fs-48 line-61 mb-0 white "> <span class="text-gradient_3">Road</span>map</h4>
+            </div>
+            <div class="row pt-79 pb-79 position-relative">
+                <div class="col-lg-4 pt-20 col-sm-6 col-12 d-flex justify-content-center justify-content-sm-start z-3">
+                    <div class="circle_1"></div>
+                    <div class="pl-18">
+                        <h5 class="poppins pt-38 fw-600 fs-18 mb-0 line-23 white text-wrap ">Phase 1 <br>
+                            <span class="fs-36 line-46 ">Q1 2022</span>
+                        </h5>
+                        <ul class="mb_pl_0 margin_left">
+                            <li class="josefin pt-12 fw-400 fs-18 line-32 white op-70  " style="list-style-type: disc;">
+                                Whitelist/Presale Created</li>
+                            <li class="josefin pt-12 fw-400 fs-18 line-32 white op-70  " style="list-style-type: disc;">
+                                Private Sale</li>
+    
+                            <li class="josefin pt-12 fw-400 fs-18 line-32 white op-70  " style="list-style-type: disc;">
+                                Public Sale</li>
+                            <li class="josefin pt-12 fw-400 fs-18 line-32 white op-70  " style="list-style-type: disc;">
+                                Prime Eternal Owner Perks </li>
+     
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 pt-20 col-sm-6 col-12 d-flex justify-content-center justify-content-sm-start z-3 d-flex justify-content-lg-center">
+                     <div class="d-flex flex-column">
+                        <div class="circle_2"></div>
+                    <div class="pl-18">
+                        <h5 class="poppins pt-38 fw-600 fs-18 mb-0 line-23 white text-wrap ">Phase 2 <br>
+                            <span class="fs-36 line-46 ">  
+                                Q2 2022</span>
+                        </h5>
+                        <ul class="mb_pl_0 margin_left">
+                            <li class="josefin pt-12 fw-400 fs-18 line-32 white op-70  " style="list-style-type: disc;">
+                                Token & Staking Release</li>
+                            <li class="josefin pt-12 fw-400 fs-18 line-32 white op-70  " style="list-style-type: disc;">
+                                Staking Gameplay</li>
+    
+                            
+    
+                        </ul>
+                    </div>
+                     </div>
+                </div>
+                <div class="col-lg-4 pt-20 col-sm-6 col-12 d-flex justify-content-center justify-content-sm-start z-3 d-flex justify-content-lg-end">
+                    <div class="d-flex flex-column">
+                        <div class="circle_2"></div>
+                        <div class="pl-18">
+                            <h5 class="poppins pt-38 fw-600 fs-18 mb-0 line-23 white text-wrap ">Phase 3 <br>
+                                <span class="fs-36 line-46 "> 
+                                    Q3 2022</span>
+                            </h5>
+                            <ul class="mb_pl_0 margin_left">
+                                <li class="josefin pt-12 fw-400 fs-18 line-32 white op-70  " style="list-style-type: disc;">
+                                    MVP Gameplay Release </li>
+                                <li class="josefin pt-12 fw-400 fs-18 line-32 white op-70  " style="list-style-type: disc;">
+                                    Battle Modes Release</li>
+        
+                                <li class="josefin pt-12 fw-400 fs-18 line-32 white op-70  " style="list-style-type: disc;">
+                                    Land Gameplay Release</li>
+                                <li class="josefin pt-12 fw-400 fs-18 line-32 white op-70  " style="list-style-type: disc;">
+                                    Gear Forging Release</li>
+        
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="position-absolute line_1 d-none d-xxl-block">
+                    <img class="w-100" src="./assest/image/line1.png" alt="line">
+                </div>
+            </div>
+           
+        </div>
+    </section>
+    <section class="bg_img_3 mt--2 d -none position-relative" id="section__4">
         <div class="max-w-1140 container">
             <div class="row padding_py flex-column-reverse flex-md-row">
-                <div class="col-md-6 col-12 d-flex align-items-center justify-content-md-start justify-content-center pt--25">
+                <div
+                    class="col-md-6 col-12 d-flex align-items-center justify-content-md-start justify-content-center pt--25">
                     <div class="d-flex flex-column">
                         <h4 class="josefin fw-700 fs-48 line-61 mb-0 white text-nowrap">Buy On <span
                                 class="linear_grad">Uniswap</span>
@@ -238,8 +322,8 @@
                 </div>
 
             </div>
-            <div class="position-absolute position_golden d-none d-xxl-block">
-                <img src="./assest/image/bg_golden_box.png" alt="bg_golden_box">
+            <div class="position-absolute position_golden d-none d_1600_b">
+                <img class=" cursor" src="./assest/image/bg_golden_box.png" alt="bg_golden_box">
             </div>
         </div>
     </section>
@@ -248,7 +332,7 @@
             <div class="pt-58 d-flex justify-content-center">
                 <h4 class="josefin fw-700 fs-48 line-61 mb-0 white "> <span class="powered">Powered</span> By</h4>
             </div>
-            <div class="row pt-68 pb-192">
+            <div class="row pt-68 pb-192 d-flex justify-content-center">
                 <div class="col-xl-3 col-lg-4 col-md-6 col-12 pt--20 d-flex justify-content-center">
                     <div class="box_4 w-100 d-flex justify-content-center z-3 box_border_2">
                         <img src="./assest/image/svg/box_1.svg" alt="box_1">
@@ -276,186 +360,163 @@
             </div>
         </div>
     </section>
-    <footer class="footer_bg mt--2 d-none">
+    <footer class="footer_bg mt--2 d -none">
         <div class="container max-w-1320">
-            <!-- <div class="accordion accordion-flush accordian_wid mx-auto" id="accordionFlushExample">
-                <div class="accordion-item overflow-hidden">
-                    <h2 class="accordion-header ">
-                        <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapseOne" aria-expanded="false"
-                            aria-controls="flush-collapseOne">
-                            <span class=" poppins fw-400 fs-18 line-27 mb-0 white "> <span class="fw-400">Q1.</span> Lectus tristique turpis id?</span>
-                        </button>
-                    </h2>
-                    <div id="flush-collapseOne" class="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body  accordion_text">
-                            <p class="  overflow-hidden mb-0  pt-24 poppins fw-400 fs-18 line-27 black">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu est malesuada massa nec pharetra.</p>
-                        </div>
-                    </div>
-                </div>
-                 
-                <div class="accordion-item ">
-                    <h2 class="accordion-header ">
-                        <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapsetwo" aria-expanded="false"
-                            aria-controls="flush-collapsetwo">
-                            <span class=" black2 rubik fw-400 line-28 fs-24 ">Q2. Is the CVhawk completely free to
-                                use?</span>
-                        </button>
-                    </h2>
-                    <div id="flush-collapsetwo" class="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body  accordion_text">
-                            <p class=" rubik fw-400  fs-16 line-24 overflow-hidden mb-0 accordion_para black op-80">
-                                Absolutely! We understand that
-                                your
-                                CV is a dynamic document that may require updates and modifications over time.
-                                Once
-                                you've saved your CV using our CVhawk, you can easily edit and make changes
-                                whenever
-                                needed </p>
-                        </div>
-                    </div>
-                </div>
-                
+            <div class="container max-w-1140">
 
-                <div class="accordion-item ">
-                    <h2 class="accordion-header ">
-                        <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapsethree" aria-expanded="false"
-                            aria-controls="flush-collapsethree">
-                            <span class=" black2 rubik fw-400 line-28 fs-24 ">Q3. Can I edit my CV after I've saved
-                                it?</span>
-                        </button>
-                    </h2>
-                    <div id="flush-collapsethree" class="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body  accordion_text">
-                            <p class=" rubik fw-400  fs-16 line-24 overflow-hidden mb-0 accordion_para black op-80">
-                                Absolutely! We understand that
-                                your
-                                CV is a dynamic document that may require updates and modifications over time.
-                                Once
-                                you've saved your CV using our CVhawk, you can easily edit and make changes
-                                whenever
-                                needed </p>
+                <div class="accord mx-auto pt-3 py-accordian z-1">
+                    <div class="accordion  accordion-flush " id="accordionFlushExample">
+                        <div class="accordion-item z-3">
+                            <h2 class="accordion-header ">
+                                <button class="accordion-button bg-transparent collapsed d-flex align-items-start z-1"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                    aria-expanded="false" aria-controls="flush-collapseOne">
+                                    <span class=" poppins fw-500 fs-18 line-27 white  "> Q1. Lectus tristique
+                                        turpis id?</span>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div
+                                    class="accordion-body poppins fw-400 d-flex gap-13 fs-18 line-27 white  op-70 max-w-872 ">
+                                    <span><img src="./assest/image/Arrow1.png" alt=""></span> Lorem
+                                    ipsum dolor sit amet, consectetur adipiscing elit. Eu est malesuada massa nec
+                                    pharetra.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item z-3 mt-24">
+                            <h2 class="accordion-header ">
+                                <button class="accordion-button bg-transparent collapsed d-flex align-items-start z-1"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsetwo"
+                                    aria-expanded="false" aria-controls="flush-collapsetwo">
+                                    <span class=" poppins fw-500 fs-18 line-27 white  "> Q2. Ac pharetra nisl nec
+                                        dignissim odio sed justo velit nisl.?</span>
+                                </button>
+                            </h2>
+                            <div id="flush-collapsetwo" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div
+                                    class="accordion-body poppins fw-400 d-flex gap-13 fs-18 line-27 white  op-70 max-w-872 ">
+                                    <span><img src="./assest/image/Arrow1.png" alt=""></span> Lorem
+                                    ipsum dolor sit amet, consectetur adipiscing elit. Eu est malesuada massa nec
+                                    pharetra.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item z-3 mt-24">
+                            <h2 class="accordion-header ">
+                                <button class="accordion-button bg-transparent collapsed d-flex align-items-start z-1"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsethree"
+                                    aria-expanded="false" aria-controls="flush-collapsethree">
+                                    <span class=" poppins fw-500 fs-18 line-27 white  "> Q3. Arcu tristique semper neque
+                                        sed condimentum.?</span>
+                                </button>
+                            </h2>
+                            <div id="flush-collapsethree" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div
+                                    class="accordion-body poppins fw-400 d-flex gap-13 fs-18 line-27 white  op-70 max-w-872 ">
+                                    <span><img src="./assest/image/Arrow1.png" alt=""></span> Lorem
+                                    ipsum dolor sit amet, consectetur adipiscing elit. Eu est malesuada massa nec
+                                    pharetra.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item z-3 mt-24">
+                            <h2 class="accordion-header ">
+                                <button class="accordion-button bg-transparent collapsed d-flex align-items-start z-1"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefour"
+                                    aria-expanded="false" aria-controls="flush-collapsefour">
+                                    <span class=" poppins fw-500 fs-18 line-27 white  "> Q4. Nam imperdiet iaculis vel
+                                        felis commodo?</span>
+                                </button>
+                            </h2>
+                            <div id="flush-collapsefour" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div
+                                    class="accordion-body poppins fw-400 d-flex gap-13 fs-18 line-27 white  op-70 max-w-872 ">
+                                    <span><img src="./assest/image/Arrow1.png" alt=""></span> Lorem
+                                    ipsum dolor sit amet, consectetur adipiscing elit. Eu est malesuada massa nec
+                                    pharetra.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item z-3 mt-24">
+                            <h2 class="accordion-header ">
+                                <button class="accordion-button bg-transparent collapsed d-flex align-items-start z-1"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefive"
+                                    aria-expanded="false" aria-controls="flush-collapsefive">
+                                    <span class=" poppins fw-500 fs-18 line-27 white  "> Q5. Quam faucibus sagittis sed
+                                        ultrices?</span>
+                                </button>
+                            </h2>
+                            <div id="flush-collapsefive" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div
+                                    class="accordion-body poppins fw-400 d-flex gap-13 fs-18 line-27 white  op-70 max-w-872 ">
+                                    <span><img src="./assest/image/Arrow1.png" alt=""></span> Lorem
+                                    ipsum dolor sit amet, consectetur adipiscing elit. Eu est malesuada massa nec
+                                    pharetra.
+                                </div>
+                            </div>
                         </div>
                     </div>
+
                 </div>
-                <div class="accordion-item ">
-                    <h2 class="accordion-header ">
-                        <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapsefour" aria-expanded="false"
-                            aria-controls="flush-collapsefour">
-                            <span class=" black2 rubik fw-400 line-28 fs-24 ">Q4. Can I import my existing CV into
-                                the builder?</span>
-                        </button>
-                    </h2>
-                    <div id="flush-collapsefour" class="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body  accordion_text">
-                            <p class=" rubik fw-400  fs-16 line-24 overflow-hidden mb-0 accordion_para black op-80">
-                                Absolutely! We understand that
-                                your
-                                CV is a dynamic document that may require updates and modifications over time.
-                                Once
-                                you've saved your CV using our CVhawk, you can easily edit and make changes
-                                whenever
-                                needed </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item ">
-                    <h2 class="accordion-header ">
-                        <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapsefive" aria-expanded="false"
-                            aria-controls="flush-collapsefive">
-                            <span class=" black2 rubik fw-400 line-28 fs-24 ">Q5. Is my personal information safe
-                                and secure?</span>
-                        </button>
-                    </h2>
-                    <div id="flush-collapsefive" class="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body  accordion_text">
-                            <p class=" rubik fw-400  fs-16 line-24 overflow-hidden mb-0 accordion_para black op-80">
-                                Absolutely! We understand that
-                                your
-                                CV is a dynamic document that may require updates and modifications over time.
-                                Once
-                                you've saved your CV using our CVhawk, you can easily edit and make changes
-                                whenever
-                                needed </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item ">
-                    <h2 class="accordion-header ">
-                        <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapsesix" aria-expanded="false"
-                            aria-controls="flush-collapsesix">
-                            <span class=" black2 rubik fw-400 line-28 fs-24 ">Q6. What kind of templates are
-                                available in the CV builder?</span>
-                        </button>
-                    </h2>
-                    <div id="flush-collapsesix" class="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body  accordion_text">
-                            <p class=" rubik fw-400  fs-16 line-24 overflow-hidden mb-0 accordion_para black op-80">
-                                Absolutely! We understand that
-                                your
-                                CV is a dynamic document that may require updates and modifications over time.
-                                Once
-                                you've saved your CV using our CVhawk, you can easily edit and make changes
-                                whenever
-                                needed </p>
-                        </div>
-                    </div>
-                </div>
+            </div>
 
 
-            </div> -->
             <div class="row pt-226">
-                <div class="col-8">
-                    <img src="./assest/image/svg/logo.svg" alt="svg">
+                <div class="col-md-8 col-12">
+                    <img class="cursor" src="./assest/image/svg/logo.svg" alt="svg">
                     <p class="poppins fw-400 fs-16 line-28 mb-0 white op-70 pt-11 footer_para">Lorem ipsum dolor sit
                         amet, consectetur adipiscing elit. Proin curabitur iaculis id cursus dignissim.</p>
-                    <div>
-                        <div class=" d-flex gap-6 pt-27">
-                            <div class="">
-                                <a href=""> <img src="./assest/image/first_logo.png" alt="first_logo"></a>
-                            </div>
-                            <div class="border_box ">
-                                <a href=""> <img src="./assest/image/twitter.png" alt="first_logo"></a>
-                            </div>
-                            <div class="border_box   z-3  ">
-                                <a href=""> <img src="./assest/image/tel_gram.png" alt="first_logo"></a>
-                            </div>
-                            <div class="border_box   z-3  ">
-                                <a href=""> <img src="./assest/image/Group176.png" alt="first_logo"></a>
-                            </div>
-                            <div class="border_box   z-3  ">
-                                <a href=""> <img src="./assest/image/Group177.png" alt="first_logo"></a>
-                            </div>
-                            <div class="border_box   z-3  ">
-                                <a href=""> <img src="./assest/image/Group178.png" alt="first_logo"></a>
-                            </div>
-                        </div>
-                    </div>
+
+
+                    <ul class="mb_pl_0  d-flex gap-6 pt-27">
+                        <li><a href="https://discord.com/" target="_blank" class="small_box_2">
+                                <img src="./assest/image/discord.png" alt="twitter">
+                            </a></li>
+                        <li><a href="https://twitter.com/?lang=en" target="_blank" class="small_box_1">
+                                <img src="./assest/image/twitter.png" alt="twitter">
+                            </a></li>
+                        <li><a href="https://telegram.org/" target="_blank" class="small_box_1">
+                                <img src="./assest/image/tel_gram.png" alt="twitter">
+                            </a></li>
+                        <li><a href="#" class="small_box_1" target="_blank">
+                                <img src="./assest/image/circle.png"   alt="twitter">
+                            </a></li>
+                        <li><a href="https://telegram.org/" target="_blank" class="small_box_1">
+                                <img src="./assest/image/circle2.png" alt="twitter">
+                            </a></li>
+                        <li><a href="https://telegram.org/" target="_blank" class="small_box_1">
+                                <img src="./assest/image/circle3.png" alt="twitter">
+                            </a></li>
+
+                    </ul>
+
+
+
+
                 </div>
-                <div class="col-2 pt-58 d-flex justify-content-end">
+                <div class="col-md-2 col-6 pt-58 d-flex justify-content-lg-end">
                     <ul class="mb-0 ps-0">
                         <li><a href="" class="josefin fw-600 fs-16 line-28 white">About:</a></li>
-                        <li class="pt-12"><a href=" " class="josefin fs-16 fw-400 line-28 white op-70 ">About Us</a></li>
+                        <li class="pt-12"><a href=" " class="josefin fs-16 fw-400 line-28 white op-70 ">About Us</a>
+                        </li>
                         <li class="pt-6"><a href=" " class="josefin fs-16 fw-400 line-28 white op-70 ">Career</a></li>
-                        <li class="pt-6"><a href=" " class="josefin fs-16 fw-400 line-28 white op-70 ">Gilded Nodes</a></li>
+                        <li class="pt-6"><a href=" " class="josefin fs-16 fw-400 line-28 white op-70 ">Gilded Nodes</a>
+                        </li>
                     </ul>
                 </div>
-                <div class="col-2 pt-58 d-flex justify-content-center">
+                <div class="col-md-2 col-6 pt-58 d-flex justify-content-lg-center">
                     <ul class="mb-0 ps-0">
                         <li><a href="" class="josefin fw-600 fs-16 line-28 white">Gilded Token:</a></li>
-                        <li class="pt-12"><a href=" " class="josefin fs-16 fw-400 line-28 white op-70 ">Etherscan.io</a></li>
+                        <li class="pt-12"><a href=" " class="josefin fs-16 fw-400 line-28 white op-70 ">Etherscan.io</a>
+                        </li>
                         <li class="pt-6"><a href=" " class="josefin fs-16 fw-400 line-28 white op-70 ">Github</a></li>
                         <li class="pt-6"><a href=" " class="josefin fs-16 fw-400 line-28 white op-70 ">Uniswap</a></li>
                     </ul>
@@ -467,12 +528,21 @@
         <div class="py-11 d-flex gap-18 justify-content-center">
             <h4 class="josefin fw-400 fs-16 line-28 mb-0 op-60 white ">© Copyright $GILD 2021
                 Policy</h4>
-                <div class="border_right">
+            <div class="border_right">
 
-                </div>
-                <h4 class="josefin fw-400 fs-16 line-28 white op-60">Policy</h4>
+            </div>
+            <h4 class="josefin fw-400 fs-16 mb-0 line-28 white op-60">Policy</h4>
         </div>
     </footer>
+    <button onclick="topFunction()" id="myBtn" title="Go to top" class="">
+        <img class="icon_wid" src="./assest/image/svg/top-icon.svg" alt="icon">
+    </button>
+    <div class="loading-overlay d -none" id="loadingOverlay" >
+        <div class="loader mx-5 d-flex flex-wrap justify-content-center align-items-center">
+            <img class=" w-100 max-500" src="./assest/image/svg/logo.svg" alt="svg">
+            <h2 class="fs-48 loader_1"></h2>
+        </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>

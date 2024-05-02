@@ -1,7 +1,7 @@
 :root {
     /* font-size */
-    --fs-sm: 16px;
-    --fs-md: 18px;
+    --fs-sm: 15px;
+    --fs-md: 16px;
     --fs-lg: 15px;
     --fs-xl: 22px;
     --fs-xxl: 24px;
@@ -46,7 +46,7 @@
     --line-46: 44px;
     --line-61: 61.2px;
     --line-62: 54.4px;
-    --line-72: 72px;
+    --line-72: 50px;
     --line-91: 40.8px;
 
 
@@ -239,7 +239,7 @@
         --line-46: 44px;
         --line-61: 61.2px;
         --line-62: 62.4px;
-        --line-72: 72px;
+        --line-72: 60px;
         --line-91: 55.8px;
     
 
