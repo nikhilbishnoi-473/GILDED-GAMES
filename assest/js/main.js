@@ -1,8 +1,8 @@
 function openNav() {
-    document.getElementById("navbar").classList.toggle("start-0");
-    document.body.classList.toggle("overflow_hidden");
-    document.querySelector(".menu").classList.toggle("cross")
-  }
+  document.getElementById("navbar").classList.toggle("start-0");
+  document.body.classList.toggle("overflow_hidden");
+  document.querySelector(".menu").classList.toggle("cross")
+}
 
 
 
@@ -12,7 +12,7 @@ function openNav() {
 
 
 
-  
+
 //// Get the button
 let mybutton = document.getElementById("myBtn");
 
@@ -33,7 +33,6 @@ function topFunction() {
   document.documentElement.scrollTop = 0;
 }
 
-
 document.addEventListener("DOMContentLoaded", function () {
   window.addEventListener("load", function () {
     setTimeout(function () {
@@ -43,26 +42,32 @@ document.addEventListener("DOMContentLoaded", function () {
     }, 3000);
   });
 });
-function countdown() {
-  var countDownDate = new Date().getTime() + (19 * 24 * 60 * 60 * 1000) + (10 * 60 * 60 * 1000) + (2 * 60 * 1000) + (55 * 1000);
+// countdown----------------------------------
 
-  var x = setInterval(function () {
-      var now = new Date().getTime();
-      var distance = countDownDate - now;
+const targetDate = new Date();
+targetDate.setDate(targetDate.getDate() + 19);
+targetDate.setHours(targetDate.getHours() + 10);
+targetDate.setMinutes(targetDate.getMinutes() + 2);
+targetDate.setSeconds(targetDate.getSeconds() + 55);
 
-      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+function updateCountdown() {
+    const now = new Date();
+    const timeLeft = targetDate - now;
 
-      var countdownElement = document.getElementById("countdown");
-      countdownElement.innerHTML = "<span class='color-violet'>" + days + "d</span> <span class='countdown-text'>:</span> " + hours + "hr : " + minutes + "min : " + seconds + "sec";
+    const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
 
-      if (distance < 0) {
-          clearInterval(x);
-          countdownElement.innerHTML = "Countdown expired!";
-      }
-  }, 1000);
+    const countdownElement = document.getElementById('countdown');
+    countdownElement.textContent = `${days}d: ${hours}hr: ${minutes}min: ${seconds}sec`;
+
+    if (timeLeft < 0) {
+        clearInterval(timerInterval);
+        countdownElement.textContent = "Countdown is over!";
+    }
 }
 
-  
+const timerInterval = setInterval(updateCountdown, 1000);
+
+updateCountdown();
